@@ -1,0 +1,16 @@
+sudo vim /etc/systemd/system/node_exporter.service
+
+[Unit]
+Description=Prometheus Server
+Documentation=https://prometheus.io/docs/introduction/overview
+After=network-online.target
+
+[Service]
+User=root
+Restart=on-failure
+
+#Give the correct path of node_exporter
+ExecStart=/root/node_exporter-1.6.1.linux-amd64/node_exporter
+
+[Install]
+WantedBy=multi-user.target
