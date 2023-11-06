@@ -46,11 +46,13 @@ Install Grafana on Debian or Ubuntu
    http://localhost:3000/
 
 
-PROMETHEUS & NODE_EXPORTER INSTALLATION 
-[https://prometheus.io/docs/prometheus/latest/installation/](https://prometheus.io/download/)
+   PROMETHEUS & NODE_EXPORTER INSTALLATION 
+   
+   [https://prometheus.io/docs/prometheus/latest/installation/](https://prometheus.io/download/)
 
-PROMETHEUS use defult port number : 9090
-NODE_EXPORTER use defult port number : 9100
+   PROMETHEUS use defult port number : 9090
+   
+   NODE_EXPORTER use defult port number : 9100
 
 
 
