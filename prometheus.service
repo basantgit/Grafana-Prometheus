@@ -1,0 +1,16 @@
+sudo vim /etc/systemd/system/prometheus.service
+
+[Unit]
+Description=Prometheus Server
+Documentation=https://prometheus.io/docs/introduction/overview
+After=network-online.target
+
+[Service]
+User=root
+Restart=on-failure
+#give the correct path of prometheus.yml
+ExecStart=/root/prometheus-2.48.0-rc.2.linux-amd64/prometheus --config.file=/root/prometheus-2.48.0-rc.2.linux-amd64/prometheus.yml
+
+[Install]
+WantedBy=multi-user.target
+             
