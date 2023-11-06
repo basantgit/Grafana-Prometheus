@@ -1,0 +1,5 @@
+#after edit the prometheus.service & node_exporter.service configuration file ran the below command to update the service.
+sudo systemctl daemon-reload
+
+# their after restart the service 
+systemctl restart prometheus.service & node_exporter.service
