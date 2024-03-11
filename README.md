@@ -36,11 +36,11 @@ Install Grafana on Debian or Ubuntu
 
 9. Restart the Grafana service
    
-   systemtl restart garfana.service
+   systemctl restart garfana.service
 
 10. Check the status Grafana service running or not
     
-   systemtl staus garfana.service
+   systemctl staus garfana.service
 
    If all working good then copy your localhost IP and use port number 3000, by defult Grafana use port number 3000
    http://localhost:3000/
